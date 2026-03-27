@@ -429,3 +429,19 @@ venv/
 __pycache__/
 
 conftest.py
+
+# Python
+backend/.venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.pyc
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Vite boilerplate
+frontend/public/favicon.svg
+frontend/public/icons.svg
+frontend/README.md
+
