@@ -1,3 +1,4 @@
+import "./Converter.css"
 import { useState } from "react"
 
 export default function Converter() {
@@ -30,7 +31,7 @@ export default function Converter() {
   }
 
   return (
-    <div>
+    <div className="wrapper">
       <h1>Unit Converter</h1>
       <input
         type="number"
