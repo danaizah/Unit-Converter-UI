@@ -16,14 +16,15 @@ A full-stack unit converter built with **React** (frontend) and **Flask** (backe
 ## Project Structure
 
 ```
-unit-converter/
+Unit-Converter-UI/
 ├── backend/
 │   ├── app.py               # Flask app and API endpoints
+|   ├── conftest.py
 │   ├── converter/
 │   │   ├── __init__.py
-│   │   └── logic.py         # Pure conversion functions
+│   │   └── converter_calculations.py         # Conversion functions
 │   ├── tests/
-│   │   └── test_logic.py    # Pytest tests
+│   │   └── test_converter.py    # Pytest tests
 │   └── requirements.txt
 │
 ├── frontend/
@@ -31,7 +32,7 @@ unit-converter/
 │   ├── src/
 │   │   ├── App.jsx           # Root component
 │   │   ├── components/
-│   │   │   └── Converter.jsx # Converter UI component
+│   │   │   └── Converter.jsx     # Converter UI component
 │   │   └── main.jsx
 │   ├── package.json
 │   └── vite.config.js

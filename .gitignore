@@ -428,8 +428,6 @@ venv/
 .pytest_cache/
 __pycache__/
 
-conftest.py
-
 # Python
 backend/.venv/
 backend/__pycache__/
