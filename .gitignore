@@ -416,3 +416,16 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# mypy cache
+.mypy_cache/
+
+# Virtual environment
+venv/
+.venv/
+
+# pytest cache
+.pytest_cache/
+__pycache__/
+
+conftest.py
