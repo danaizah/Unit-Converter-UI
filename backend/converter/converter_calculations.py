@@ -9,7 +9,20 @@ CONVERSIONS = {
 
 
 def convert(value: float, from_unit: str, to_unit: str) -> float:
-    
+    """
+    Convert a numeric value from one unit to another.
+
+    Args:
+        value (float): The numeric value to convert.
+        from_unit (str): The source unit.
+        to_unit (str): The target unit.
+
+    Raises:
+        ValueError: If the units are unsupported or incompatible.
+
+    Returns:
+        float: The converted value.
+    """
     if from_unit == to_unit:
         return value
     key = (from_unit.lower(), to_unit.lower())
